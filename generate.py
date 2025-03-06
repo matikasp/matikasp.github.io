@@ -13,14 +13,7 @@ def fetch_tiobe_page(url):
 def parse_table(html):
     """Parsuje stronę HTML i wyciąga dane z tabeli zawierającej listę języków."""
     soup = BeautifulSoup(html, "html.parser")
-    target_table = None
-
-    # Szukamy tabeli, która zawiera nagłówek "Programming Language"
-    tables = soup.find_all("table")
-    for table in tables:
-        if table.find("th") and "Programming Language" in table.get_text():
-            target_table = table
-            break
+    target_table = soup.find("table", {"id": "top20"})
 
     if target_table is None:
         print("Nie znaleziono tabeli TIOBE Index.")
@@ -31,11 +24,11 @@ def parse_table(html):
     # Pomijamy pierwszy wiersz nagłówkowy
     for row in rows[1:]:
         cols = row.find_all("td")
-        if len(cols) >= 4:
+        if len(cols) >= 6:
             rank = cols[0].get_text(strip=True)
-            language = cols[1].get_text(strip=True)
-            rating = cols[2].get_text(strip=True)
-            change = cols[3].get_text(strip=True)
+            language = cols[4].get_text(strip=True)
+            rating = cols[5].get_text(strip=True)
+            change = cols[6].get_text(strip=True)
             languages.append({
                 "rank": rank,
                 "language": language,

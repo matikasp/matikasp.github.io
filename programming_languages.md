@@ -2,185 +2,185 @@
 
 | Ranking | Język | Rating | Zmiana |
 |---------|-------|--------|--------|
-| 1 | 1 |  |  |
-| 2 | 3 |  |  |
-| 3 | 4 |  |  |
-| 4 | 2 |  |  |
-| 5 | 5 |  |  |
-| 6 | 6 |  |  |
-| 7 | 7 |  |  |
-| 8 | 8 |  |  |
-| 9 | 12 |  |  |
-| 10 | 9 |  |  |
-| 11 | 11 |  |  |
-| 12 | 15 |  |  |
-| 13 | 18 |  |  |
-| 14 | 10 |  |  |
-| 15 | 21 |  |  |
-| 16 | 13 |  |  |
-| 17 | 14 |  |  |
-| 18 | 19 |  |  |
-| 19 | 20 |  |  |
-| 20 | 24 |  |  |
+| 1 | Python | 23.88% | +8.72% |
+| 2 | C++ | 11.37% | +0.84% |
+| 3 | Java | 10.66% | +1.79% |
+| 4 | C | 9.84% | -1.14% |
+| 5 | C# | 4.12% | -3.41% |
+| 6 | JavaScript | 3.78% | +0.61% |
+| 7 | SQL | 2.87% | +1.04% |
+| 8 | Go | 2.26% | +0.53% |
+| 9 | Delphi/Object Pascal | 2.18% | +0.78% |
+| 10 | Visual Basic | 2.04% | +0.52% |
+| 11 | Fortran | 1.75% | +0.35% |
+| 12 | Scratch | 1.54% | +0.36% |
+| 13 | Rust | 1.47% | +0.42% |
+| 14 | PHP | 1.14% | -0.37% |
+| 15 | R | 1.06% | +0.07% |
+| 16 | MATLAB | 0.98% | -0.28% |
+| 17 | Assembly language | 0.95% | -0.24% |
+| 18 | COBOL | 0.82% | -0.18% |
+| 19 | Ruby | 0.82% | -0.17% |
+| 20 | Prolog | 0.80% | +0.03% |
 
 
-## 1
+## Python
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** Welcome to Python.org
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://www.python.org/
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** Python is a versatile and easy-to-learn language that lets you work quickly and integrate systems more effectively. Learn more about Python, download the latest version, access documentation, find jobs, events, success stories and more.
 
-## 3
+## C++
 
-**Tytuł:** My top 3 programming languages to learn in 2024 - Educative
+**Tytuł:** C++ Programming Language - GeeksforGeeks
 
-**Link:** https://www.educative.io/blog/top-3-programming-languages-to-learn
+**Link:** https://www.geeksforgeeks.org/c-plus-plus/
 
-**Opis:** Let's take a closer look at each of these programming languages! 1. Go (Golang) # Go is an open-source, higher-level language developed at Google and first released in 2012. It's in the top 20 most popular languages in the RedMonk and TIOBE Index rankings. With Go, you get: A standard library; Package management; Static typing; Support for ...
+**Opis:** Learn C++, a popular and versatile programming language that supports object-oriented programming and high-performance applications. Explore its features, history, basics, syntax, operators, control statements, functions, pointers, references, arrays, strings, structures, unions, classes, objects, inheritance, polymorphism, and more.
 
-## 4
+## Java
 
-**Tytuł:** The 4 Main Types of Coding Languages Explained
+**Tytuł:** Java | Oracle
 
-**Link:** https://keremmican.com/4-types-of-coding-language
+**Link:** https://www.java.com/
 
-**Opis:** Programming languages can be broadly categorized into four main types based on their characteristics, complexity, and use cases. Each type serves different purposes in the world of software development, ranging from low-level hardware communication to high-level user applications. Let's break down each category to better understand their ...
+**Opis:** Oracle Java is the #1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services. Java continues to be the development platform of choice for enterprises and developers.
 
-## 2
+## C
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** C (programming language) - Wikipedia
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://en.wikipedia.org/wiki/C_(programming_language)
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** C (pronounced / ˈ s iː / - like the letter c) [6] is a general-purpose programming language.It was created in the 1970s by Dennis Ritchie and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targeted CPUs.It has found lasting use in operating systems code (especially in kernels [7]), device drivers, and protocol stacks, but its use ...
 
-## 5
+## C#
 
-**Tytuł:** 5 Types of Programming Languages - Coursera
+**Tytuł:** Introduction to Programming in C# | IronCoders
 
-**Link:** https://www.coursera.org/articles/types-programming-language
+**Link:** https://ironcoders.com/learn/csharp
 
-**Opis:** 5. Logic programming languages. Instead of telling a computer what to do, a logic programming language expresses a series of facts and rules to instruct the computer on how to make decisions. Some examples of logic languages include: Prolog. Absys. Datalog. Alma-0
+**Opis:** Introduction to Programming in C#. C# (pronounced "C Sharp") is a modern, object-oriented programming language developed by Microsoft. It is widely used for building Windows applications, web applications, games (via Unity), and more. C# is part of the .NET ecosystem, which provides a rich set of libraries and tools for developers.
 
-## 6
+## JavaScript
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** JavaScript Tutorial - W3Schools
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://www.w3schools.com/Js/
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** Learn JavaScript. JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced. Start learning JavaScript now »
 
-## 7
+## SQL
 
-**Tytuł:** Seven Languages in Seven Weeks - The Pragmatic Programmer
+**Tytuł:** SQL Tutorial - W3Schools
 
-**Link:** https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/
+**Link:** https://www.w3schools.com/sql/
 
-**Opis:** Seven Languages in Seven Weeks A Pragmatic Guide to Learning Programming Languages . by Bruce A. Tate You should learn a programming language every year, as recommended by The Pragmatic Programmer.But if one per year is good, how about Seven Languages in Seven Weeks?In this book you'll get a hands-on tour of Clojure, Haskell, Io, Prolog, Scala, Erlang, and Ruby.
+**Opis:** SQL is a standard language for storing, manipulating and retrieving data in databases. Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.
 
-## 8
+## Go
 
-**Tytuł:** Top 8 Most Demanded Programming Languages in 2024 - Devjobsscanner
+**Tytuł:** The Go Programming Language
 
-**Link:** https://www.devjobsscanner.com/blog/top-8-most-demanded-programming-languages/
+**Link:** https://go.dev/
 
-**Opis:** Ever wondered which is the most demanded programming language in 2024? Although there are more than 200+ programming languages, only few of them are used in the real world industry. Knowing this information is essential to succeed in the developer job industry. In the last 17 months (from Jan-2023 to Sep-2024), DevJobsScanner has analyzed more than 7M developer jobs. From that 7M jobs ...
+**Opis:** Learn why Go is an open-source language supported by Google for building simple, secure, scalable systems. Explore use cases, resources, packages, and community for Go developers.
 
-## 12
+## Delphi/Object Pascal
 
-**Tytuł:** Top 12 Most Popular Programming Languages - Revelo
+**Tytuł:** Delphi (software) - Wikipedia
 
-**Link:** https://www.revelo.com/blog/most-popular-programming-languages
+**Link:** https://en.wikipedia.org/wiki/Delphi_(software)
 
-**Opis:** 12 Popular Languages for Programming 2022. There are a seemingly endless variety of popular programming languages to choose from in 2022. From building augmented reality experiences to banking applications and video game design, there's a language that's perfectly suited to what you want to do. Some are better for beginners, while others offer ...
+**Opis:** Delphi is a general-purpose programming language and a software product that uses the Delphi dialect of the Object Pascal programming language and provides an integrated development environment (IDE) for rapid application development of desktop, mobile, web, and console software, [3] currently developed and maintained by Embarcadero Technologies.
 
-## 9
+## Visual Basic
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** Visual Basic docs - get started, tutorials, reference.
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://learn.microsoft.com/en-us/dotnet/visual-basic/
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** Learn how to create type-safe .NET apps with Visual Basic, an object-oriented programming language developed by Microsoft. Find tutorials, reference, language features, and what's new in Visual Basic.
 
-## 11
+## Fortran
 
-**Tytuł:** POP-11 - Wikipedia
+**Tytuł:** Fortran - Wikipedia
 
-**Link:** https://en.wikipedia.org/wiki/POP-11
+**Link:** https://en.wikipedia.org/wiki/Fortran
 
-**Opis:** POP-11 is a reflective, incrementally compiled programming language with many of the features of an interpreted language.It is the core language of the Poplog programming environment developed originally by the University of Sussex, and recently in the School of Computer Science at the University of Birmingham, which hosts the main Poplog website.. POP-11 is an evolution of the language POP-2 ...
+**Opis:** Fortran is a compiled, imperative language for numeric computation and scientific computing, developed by IBM in 1957. It has evolved through several versions and dialects, adding features such as character data, structured programming, array programming, generic programming, parallel computing, and object-oriented programming.
 
-## 15
+## Scratch
 
-**Tytuł:** The 15 Most Popular Programming Languages of 2023 - HackerRank
+**Tytuł:** Scratch - Imagine, Program, Share
 
-**Link:** https://www.hackerrank.com/blog/most-popular-languages-2023/
+**Link:** https://scratch.mit.edu/
 
-**Opis:** Java is a high-level, object-oriented programming language used to create complete applications. The language is platform independent, allowing it to run on any device that supports its environment. This combination of performance and versatility made Java the most popular programming language with developers in 2021 and 2022.
+**Opis:** Scratch is a programming language and online platform where you can create your own interactive stories, games, and animations. Learn about Scratch, join the community, explore projects, and share your creations with others around the world.
 
-## 18
+## Rust
 
-**Tytuł:** 18 New Programming Languages to Learn in 2025 - Built In
+**Tytuł:** Rust Programming Language
 
-**Link:** https://builtin.com/software-engineering-perspectives/new-programming-languages
+**Link:** https://www.rust-lang.org/
 
-**Opis:** 18. Mojo. A programming language created for AI development, Mojo utilizes Python's syntax and ecosystem, but it also has systems programming and metaprogramming features, giving it performance similar to C and C++. This lets developers program AI systems, including low-level AI hardware, all with one Python-like language. ...
+**Opis:** Rust is a fast, reliable, and productive programming language that can run on embedded devices, web services, and more. Learn how to get started, why Rust is different, and what companies are using it in production.
 
-## 10
+## PHP
 
-**Tytuł:** Top 10 Programming Languages For 2025 - GeeksforGeeks
+**Tytuł:** PHP Tutorial - W3Schools
 
-**Link:** https://www.geeksforgeeks.org/top-programming-languages-of-the-future-2025/
+**Link:** https://www.w3schools.com/php/
 
-**Opis:** Top 10 Object-Oriented Programming Languages in 2024 In the present world, almost all sectors make use of software applications or computer programs that require to be coded. Programming Language is a set of instructions used in specific notations to write computer programs.
+**Opis:** Learn PHP, a server scripting language for making dynamic and interactive Web pages, with examples, exercises, quizzes and references. W3Schools offers a free online "PHP Tryit" editor and a certification program.
 
-## 21
+## R
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** R: The R Project for Statistical Computing
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://www.r-project.org/
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** R is a free software environment for statistical computing and graphics that runs on various platforms. Learn how to download, install, use, and contribute to R, and get the latest news and updates from the R Project website.
 
-## 13
+## MATLAB
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** Programming with MATLAB - MATLAB & Simulink - MathWorks
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://www.mathworks.com/products/matlab/programming-with-matlab.html
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** Learn how to use MATLAB, a high-level programming language for engineers and scientists, for interactive commands, matrix and array mathematics, data types, plots, and more. Explore features such as scripts, functions, classes, object-oriented programming, and software development tools.
 
-## 14
+## Assembly language
 
-**Tytuł:** 16 Popular Programming Languages and Their Uses Explained
+**Tytuł:** Assembly language - Wikipedia
 
-**Link:** https://mikkegoes.com/14-programming-languages-explained/
+**Link:** https://en.wikipedia.org/wiki/Assembly_language
 
-**Opis:** Java is one of the most popular and widely-used programming languages in the world.. You can use Java for a variety of different projects, from coding Android smartphone apps to building complex desktop applications. At the time of updating this article, Java holds the 3rd place in the TIOBE Index that ranks programming languages based on how often people search for them on the most common ...
+**Opis:** In computer programming, assembly language (alternatively assembler language [1] or symbolic machine code), [2] [3] [4] often referred to simply as assembly and commonly abbreviated as ASM or asm, is any low-level programming language with a very strong correspondence between the instructions in the language and the architecture's machine code ...
 
-## 19
+## COBOL
 
-**Tytuł:** List of programming languages - Wikipedia
+**Tytuł:** COBOL - Wikipedia
 
-**Link:** https://en.wikipedia.org/wiki/List_of_programming_languages
+**Link:** https://en.wikipedia.org/wiki/COBOL
 
-**Opis:** This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its ...
+**Opis:** COBOL is a compiled English-like programming language for business use, designed in 1959 and standardized by ISO/IEC. Learn about its origins, features, dialects, and current status in mainframe and cloud computing.
 
-## 20
+## Ruby
 
-**Tytuł:** Top 20 Programming Languages to Learn [2025 Updated] - GeeksforGeeks
+**Tytuł:** Ruby Programming Language
 
-**Link:** https://www.geeksforgeeks.org/top-programming-languages/
+**Link:** https://www.ruby-lang.org/en/
 
-**Opis:** Top 20 Programming Languages to Learn in 2025. The list of the best programming languages is sourced from the Stack Overflow Developer Survey, GitHub Octoverse, and the TIOBE Index.We've also analyzed job market demand through platforms like Indeed, Glassdoor, and LinkedIn to highlight the skills companies are currently hiring for. We have provided information about the top programming ...
+**Opis:** Ruby is a dynamic, open source language with a focus on simplicity and productivity. Learn about its features, download the latest version, read the news and security advisories, and explore the community resources.
 
-## 24
+## Prolog
 
-**Tytuł:** Ranked: The Most Popular Programming Languages (2014-2024)
+**Tytuł:** Prolog - Wikipedia
 
-**Link:** https://www.visualcapitalist.com/ranked-the-worlds-most-popular-programming-languages-2014-2024/
+**Link:** https://en.wikipedia.org/wiki/Prolog
 
-**Opis:** This visualization shows the most popular programming languages on GitHub from 2014 to 2024, ranked by the number of users contributing to projects in each language. Data comes from GitHub and is updated as of November 2024. What Was the Most Popular Programming Language in 2024?
+**Opis:** Prolog is a logic programming language that has its origins in artificial intelligence, automated theorem proving and computational linguistics. [1] [2] [3]Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program is a set of facts and rules, which define relations.
 
