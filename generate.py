@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from duckduckgo_search import DDGS as ddg
@@ -39,24 +40,45 @@ def parse_table(html):
 
 def search_additional_info(query):
     """Wyszukuje dodatkowe informacje dla danego zapytania przy użyciu duckduckgo_search."""
-    results = ddg().text(query)
+    ddgs = ddg()
+    results = ddgs.text(query, max_results=1)
     if results:
         return results[0]
     return None
 
-def generate_markdown(languages, filename="programming_languages.md"):
-    """Generuje plik Markdown z tabelą i dodatkowymi informacjami dla każdego języka."""
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("# Lista języków programowania (TIOBE Index)\n\n")
-        f.write("| Ranking | Język | Rating | Zmiana |\n")
-        f.write("|---------|-------|--------|--------|\n")
-        for lang in languages:
-            f.write(f"| {lang['rank']} | {lang['language']} | {lang['rating']} | {lang['change']} |\n")
-        f.write("\n\n")
+def sanitize_filename(name):
+    """Sanitizes the filename by replacing problematic characters."""
+    return name.lower().replace(' ', '_').replace('/', '_').replace('\\', '_')
 
-        # Dla każdego języka generujemy sekcję z dodatkowymi informacjami
+def generate_markdown(languages, output_dir="languages", main_filename="index.md"):
+    """Generuje pliki Markdown z tabelą i dodatkowymi informacjami dla każdego języka."""
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    with open(main_filename, "w", encoding="utf-8") as main_file:
+        main_file.write("---\n")
+        main_file.write("layout: default\n")
+        main_file.write("title: Lista języków programowania (TIOBE Index)\n")
+        main_file.write("---\n\n")
+        main_file.write("# Lista języków programowania (TIOBE Index)\n\n")
+        main_file.write("| Ranking | Język | Rating | Zmiana |\n")
+        main_file.write("|---------|-------|--------|--------|\n")
         for lang in languages:
-            f.write(f"## {lang['language']}\n\n")
+            main_file.write(f"| {lang['rank']} | [{lang['language']}](./{output_dir}/{sanitize_filename(lang['language'])}.html) | {lang['rating']} | {lang['change']} |\n")
+        main_file.write("\n\n")
+
+    for lang in languages:
+        filename = os.path.join(output_dir, f"{sanitize_filename(lang['language'])}.md")
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(f"---\n")
+            f.write(f"title: {lang['language']}\n")
+            f.write(f"layout: default\n")
+            f.write(f"---\n\n")
+            f.write(f"# {lang['language']}\n\n")
+            f.write(f"**Ranking:** {lang['rank']}\n\n")
+            f.write(f"**Rating:** {lang['rating']}\n\n")
+            f.write(f"**Zmiana:** {lang['change']}\n\n")
+
             query = f"{lang['language']} programming language"
             info = search_additional_info(query)
             if info:
@@ -71,7 +93,7 @@ def main():
     html = fetch_tiobe_page(url)
     languages = parse_table(html)
     generate_markdown(languages)
-    print("Plik markdown został wygenerowany jako 'programming_languages.md'.")
+    print("Pliki markdown zostały wygenerowane.")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,11 @@
+title: Programming languages
+description: A simple Jekyll site about programming languages
+baseurl: ""
+url: "https://matikasp.github.io" # the base hostname & protocol for your site
+
+markdown: kramdown
+theme: minima
+
+# Build settings
+plugins:
+  - jekyll-sass-converter
